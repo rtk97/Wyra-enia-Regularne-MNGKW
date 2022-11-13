@@ -1,0 +1,7 @@
+no_regex="(?<=no\.\s)\d{1,5}|(?<=No\.\s)\d*|(?<=nr\s)\d{1,5}|(?<=Nr\s)\d{1,5}|(?<=num\.\s)\d{1,5}|(?<=iss\.\s)\d{1,5}|(?<=issue\s)\d{1,5}|(?<=Issue\s)\d{1,5}|(?<=Issue:\s)\d{1,5}"
+vol_regex="(?<=vol\.\s)\d*|(?<=Vol\.\s)\d*"
+article_no_regex=""
+pages_in_range_regex="(?<=\ss\.\s)(?:\d+-\d+)|(?<=S\.\s)(?:\d+-\d+)|(?<=s\.\s)(?:\d+-\d+)"
+publisher_name_regex="(?<=\:\s)(\s*\D+)"
+publisher_location_regex="(?:[A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]*)"
+publisher_year_regex="(?<=\,\s)(?:\d{1,4})(?=\;)"
